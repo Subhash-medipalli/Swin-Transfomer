@@ -1,2 +1,3 @@
-# Swin Transfomer
+# Swin Transformer
+We implemented the Swin Transformer architecture for image classification tasks, comparing its performance with the Vision Transformer (ViT) and applying it to both CIFAR-10 and CIFAR-100 datasets. Our team explored key innovations of the Swin Transformer, including shifted window attention, hierarchical feature extraction through patch merging, and relative positional embeddings. We incorporated custom data augmentation using RandAugment to improve model generalization. Additionally, we developed a robust training pipeline featuring checkpointing and mixed precision (AMP) to enhance training efficiency. Our experimental results showed that the Swin Transformer outperforms traditional CNNs and achieves competitive performance even on small datasets like CIFAR-10, demonstrating its scalability and effectiveness for dense prediction tasks.
  
