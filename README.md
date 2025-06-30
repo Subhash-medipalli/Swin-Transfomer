@@ -1,3 +1,40 @@
-# Swin Transformer
-We implemented the Swin Transformer architecture for image classification tasks, comparing its performance with the Vision Transformer (ViT) and applying it to both CIFAR-10 and CIFAR-100 datasets. Our team explored key innovations of the Swin Transformer, including shifted window attention, hierarchical feature extraction through patch merging, and relative positional embeddings. We incorporated custom data augmentation using RandAugment to improve model generalization. Additionally, we developed a robust training pipeline featuring checkpointing and mixed precision (AMP) to enhance training efficiency. Our experimental results showed that the Swin Transformer outperforms traditional CNNs and achieves competitive performance even on small datasets like CIFAR-10, demonstrating its scalability and effectiveness for dense prediction tasks.
- 
+# 🌀 Swin Transformer
+
+This project implements the **Swin Transformer** architecture for image classification, with experiments on both **CIFAR-10** and **CIFAR-100** datasets.
+
+---
+
+### 🚀 Key Highlights
+
+- 🔲 **Shifted Window Attention**: Efficient local attention mechanism for better scalability  
+- 🧠 **Hierarchical Feature Extraction**: Patch merging strategy captures multiscale information  
+- 🎯 **Relative Positional Embedding**: Adds spatial context to patch tokens  
+- 🔁 **Data Augmentation**: Applied `RandAugment` to boost generalization  
+- ⚙️ **Training Pipeline**: Integrated **checkpointing** and **AMP** (automatic mixed precision) for speed and stability  
+- 📊 **Comparison**: Benchmarked against Vision Transformer (ViT) and traditional CNNs
+
+---
+
+### 🧪 Results
+
+Our experiments showed that Swin Transformer:
+- ✅ Outperforms traditional CNNs on CIFAR-10
+- ⚖️ Matches or exceeds ViT performance on CIFAR-100
+- 📈 Scales well even with small datasets, maintaining accuracy
+
+---
+
+### 🧰 Tech Stack
+
+- `PyTorch`
+- `RandAugment`
+- `AMP (torch.cuda.amp)`
+- `Matplotlib`, `Seaborn` for visualization
+- `Weights & Biases` or `TensorBoard` (optional for logging)
+
+---
+
+### 🖼 Sample Result
+
+- `Check PPTX for the results`
+
